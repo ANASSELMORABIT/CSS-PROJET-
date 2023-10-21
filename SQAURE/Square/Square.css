@@ -1,0 +1,51 @@
+.Roof{
+    width: 500px; 
+    height: 100px; 
+    background-color: red;
+    border: 5px solid black;
+    left: 200px;
+    margin: 0 auto;
+}
+.Square{
+    width: 450px; 
+    height: 400px; 
+    background-color: rgb(146, 135, 135);
+    border: 5px solid black;
+    position: relative;
+    margin:0 auto;
+}
+.box{
+    position: absolute;
+}
+.ventana1{
+    width: 80px; 
+    height: 80px;
+    left: 20px;
+    background-color: rgb(91, 12, 227);
+    border: 5px solid black;
+    bottom: 250px;
+}
+.ventana2{
+    width: 80px; 
+    height: 80px;
+    left:  350px;
+    background-color: rgb(91, 12, 227);
+    border: 5px solid black;
+    bottom: 100px;
+}
+.ventana3{
+    width: 120px; 
+    height:100px;
+    left:  180px;
+    background-color: rgb(72, 2, 2);
+    border: 5px solid black;
+    bottom: 0px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+}
+.number{
+    position: absolute;
+    text-align: center;
+}
